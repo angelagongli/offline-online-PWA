@@ -1,0 +1,26 @@
+{
+  "name": "offline-online-pwa",
+  "version": "1.0.0",
+  "description": "Budget tracker PWA using IndexedDB to store pending transaction data when the user is offline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelagongli/offline-online-PWA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelagongli/offline-online-PWA/issues"
+  },
+  "homepage": "https://github.com/angelagongli/offline-online-PWA#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0"
+  }
+}
